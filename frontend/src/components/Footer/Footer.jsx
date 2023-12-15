@@ -1,7 +1,9 @@
+import styles from './Footer.module.css';
+
 function Footer() {
     return (
         <>
-            <p>&copy; CoinBounce 2023</p>
+            <p className={styles.footer}>&copy; CoinBounce 2023</p>
         </>
     );
 }
